@@ -10,6 +10,7 @@ const App = () => {
   return <main>
     <Greeting />
     <ProductInfo />
+    <div> hello teh </div>
     {numbers.map((number) => (
       <ul key={number}>
         <li>{number}</li>
